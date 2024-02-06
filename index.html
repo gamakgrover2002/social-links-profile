@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        background-color: black;
+      }
+      #profile-card {
+        width: 25vw;
+        height: 80vh;
+        border-radius: 10px;
+        background: #1f1f1f;
+        backdrop-filter: blur(5px);
+        margin-left: 37.5vw;
+        margin-top: 12.5vh;
+      }
+      .profile-img {
+        padding-top: 5vh;
+        text-align: center;
+      }
+      img {
+        width: 8vw;
+
+        border-radius: 50%;
+      }
+      #name {
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.25vw;
+        text-align: center;
+      }
+      #location {
+        color: rgb(195, 255, 0);
+        text-align: center;
+        font-size: 0.8vw;
+        font-weight: bold;
+      }
+      #desc {
+        text-align: center;
+        color: aliceblue;
+        font-weight: 100;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .attribution {
+        color: aliceblue;
+      }
+      .child {
+        height: 5vh;
+        margin-left: 2.5vw;
+        width: 20vw;
+        background-color: #333333;
+        margin-bottom: 2vh;
+        outline: none;
+        border: none;
+        color: aliceblue;
+        font-weight: bold;
+        border-radius: 20px;
+      }
+      .child:hover {
+        cursor: pointer;
+        color: black;
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="profile-card">
+      <div class="profile-img">
+        <img src="./assets/images/avatar-jessica.jpeg" />
+      </div>
+      <p id="name">Jessica Randall</p>
+      <p id="location">London, United Kingdom</p>
+      <p id="desc">"Front-end developer and avid reader."</p>
+      <div id="grid">
+        <button class="child">GitHub</button>
+        <button class="child">Frontend Mentor</button>
+        <button class="child">LinkedIn</button>
+        <button class="child">Twitter</button>
+        <button class="child">Instagram</button>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/gamakgrover2002">Gamak Grover</a>.
+    </div>
+  </body>
+</html>
